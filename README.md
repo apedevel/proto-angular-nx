@@ -55,30 +55,28 @@ Libraries are sharable across libraries and applications. They can be imported f
 
 Run `ng serve my-app` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+`yarn create nx-workspace proto-angular-nx`
 
-Run `ng g component my-component --project=my-app` to generate a new component.
 
-## Build
+>  NX   NOTE  Because you selected an Angular-specific preset, we generated an Nx workspace powered by the Angular CLI.
 
-Run `ng build my-app` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+  Run 'create-nx-workspace --help' to see how to select a different CLI.
 
-## Running unit tests
 
-Run `ng test my-app` to execute the unit tests via [Jest](https://jestjs.io).
+———————————————————————————————————————————————
 
-Run `nx affected:test` to execute the unit tests affected by a change.
 
-## Running end-to-end tests
+>  NX   NOTE  Nx CLI is not installed globally.
 
-Run `ng e2e my-app` to execute the end-to-end tests via [Cypress](https://www.cypress.io).
+  This means that you might have to use "yarn nx" or "npm nx" to execute commands in the workspace.
+  Run "yarn global add @nrwl/cli" or "npm install -g @nrwl/cli" to be able to execute command directly.
 
-Run `nx affected:e2e` to execute the end-to-end tests affected by a change.
 
-## Understand your workspace
+———————————————————————————————————————————————
 
-Run `nx dep-graph` to see a diagram of the dependencies of your projects.
 
-## Further help
+>  NX   NOTE  First time using Nx? Check out this interactive Nx tutorial.
 
-Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
+  https://nx.dev/angular/tutorial/01-create-application
+
+Done in 27977.62s.
