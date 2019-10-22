@@ -1,0 +1,18 @@
+{
+  "npmScope": "proto-angular-nx",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "proto-angular-nx-e2e": {
+      "tags": []
+    },
+    "proto-angular-nx": {
+      "tags": []
+    }
+  }
+}
